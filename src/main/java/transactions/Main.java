@@ -27,6 +27,6 @@ public class Main {
 
         Transaction t2 = Transaction.getNextMonthTransaction(t1);
         System.out.printf("Month of Transaction t1 is %s\n", t1.getDate().get(Calendar.MONTH));
-        System.out.printf("Month of Transaction t2 is %s\n", t1.getDate().get(Calendar.MONTH));
+        System.out.printf("Month of Transaction t2 is %s\n", t2.getDate().get(Calendar.MONTH));
     }
 }
